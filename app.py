@@ -44,9 +44,9 @@ def create_app():
 async def index():
     return await render_template("index.html", title=UI_TITLE, favicon=UI_FAVICON)
 
-@bp.route("/frontend/src/assets/ecicon.ico")
+@bp.route("/favicon.ico")
 async def favicon():
-    return await bp.send_static_file("ecicon.ico")
+    return await bp.send_static_file("favicon.ico")
 
 @bp.route("/assets/<path:path>")
 async def assets(path):
