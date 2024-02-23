@@ -10,6 +10,6 @@
 </style>
 <rect id="VertBar" y="152.7" class="st0" width="107.8" height="220.6"/>
 <rect id="MiddleBar" x="107.3" y="152.7" class="st0" width="233" height="70.2"/>
-<rect id="BottomBar" x="107.8" y="303.1" class="st0" width="266.2" height="70.2"/>
-<rect id="LightBar" y="0.4" class="st1" width="366.1" height="70.2"/>
+<rect id="BottomBar" x="107.3" y="303.1" class="st0" width="266.7" height="70.2"/>
+<rect id="LightBar" class="st1" width="366.1" height="70.6"/>
 </svg>
